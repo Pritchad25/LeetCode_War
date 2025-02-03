@@ -1,6 +1,0 @@
--In a lot of problems, we are asked to reverse the links between a set of nodes of a LinkedList. 
-Often, the constraint is that we need to do this IN-PLACE i.e., using the existing node objects 
-and without using extra memory.
-
-In-place Reversal of a LinkedList pattern describes an efficient way to solve the above problem.
-Let's solve a bunch of problems using this pattern.
