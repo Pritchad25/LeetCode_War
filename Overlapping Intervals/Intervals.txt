@@ -1,0 +1,15 @@
+This pattern describes an efficient technique to deal with OVERLAPPING INTERVALS. In a lot of 
+problems involving intervals, we either need to 
+(i)find overlapping intervals OR (ii) merge intervals if they overlap
+
+Given two intervals 'a' and 'b', there will be six different ways the two intervals can relate 
+to each other:
+1. 'a' and 'b' DO NOT OVERLAP, ie they're MUTUALLY EXCLUSIVE intervals 'a' is followed by 'b'
+2. 'a' and 'b' DO NOT OVERLAP, ie they're MUTUALLY EXCLUSIVE intervals 'b' is followed by 'a'
+3. 'a' and 'b' OVERLAP, 'b' ends after 'a'
+4. 'a' and 'b' OVERLAP, 'a' ends after 'b'
+5. 'a' COMPLETELY OVERLAPS 'b'.
+6. 'b' COMPLETELY OVERLAPS 'a'.
+
+Understanding the above six cases will help us in solving ALL intervals related problems. Let’s 
+jump onto our first problem to understand the Merge Interval pattern.
