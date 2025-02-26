@@ -1,0 +1,16 @@
+In many problems, where we are given a set of elements such that we can 
+divide them into 2 parts: To solve the problem, we are interested in 
+knowing the smallest element in 1 part and the biggest element in the 
+other part. This pattern is an efficient approach to solve such problems.
+- This pattern uses 2 Heaps to solve these problems; A Min Heap to find the
+smallest element and a Max Heap to find the biggest element.
+
+Note: Python's heapq module doesnt provide a Max-heap implementation, only
+a Min-Heap implementation.The Min Heap's property takes precedence here. We
+can simulate a Max-heap, but sticking to the Min-Heap property, which 
+property, states that the smallest element is at the root or at the top of 
+the heap.We simulate a Max Heap by pushing negative values into the Maxheap,
+sticking or maintaining the Min-Heap property, such that the most negative 
+value is always at the top(in this way, at face value, it will appear like 
+a Max-Heap), making it so that we can access the Maximum value/Highest Value
+by negating the value again, to get the true/absolute value.
