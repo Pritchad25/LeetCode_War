@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''The Actual Anagram/Permutation of Pattern in the given string.
+'''The Actual Anagram/Permutations of Pattern in the given string.
 Given a string and a pattern, find all anagrams of the pattern in the 
 given string. return a list of starting indices of the anagrams of 
 the pattern in the given string.
